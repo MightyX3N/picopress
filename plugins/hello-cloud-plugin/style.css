@@ -1,0 +1,19 @@
+.hello-cloud {
+    background: #f0faff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    color: #0073aa;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hello-cloud:hover {
+    background: #e0f0ff;
+}
+
+.hello-cloud.toggled {
+    background: #ffeb3b;
+    color: #333;
+}
