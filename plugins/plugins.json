@@ -6,6 +6,13 @@
             "version": "1.0.0",
             "author": "xAI",
             "path": "hello-cloud-plugin"
+        },
+        {
+            "name": "Test Banner Plugin",
+            "description": "Displays a visible banner at the top of the page for testing Cloud Plugins Manager",
+            "version": "1.0.0",
+            "author": "Test Author",
+            "path": "test-banner-plugin"
         }
     ]
 }
