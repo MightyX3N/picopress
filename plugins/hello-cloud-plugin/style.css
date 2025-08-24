@@ -1,22 +1,28 @@
 .hello-cloud {
-    background: #f0faff;
-    padding: 20px;
-    border-radius: 8px;
+    background: #cceeff; /* brighter background */
+    padding: 40px 60px; /* bigger clickable area */
+    border-radius: 12px;
     text-align: center;
-    font-size: 18px;
-    color: #0073aa;
+    font-size: 24px; /* bigger text */
+    font-weight: bold;
+    color: #005577; /* darker, more visible text */
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
     width: fit-content;
-    margin: 0 auto;
+    margin: 50px auto; /* more spacing from top */
+    border: 3px solid #0073aa; /* noticeable border */
+    box-shadow: 0 8px 20px rgba(0, 115, 170, 0.4); /* glowing shadow */
 }
 
 .hello-cloud:hover {
-    background: #e0f0ff;
-    transform: scale(1.05);
+    background: #99ddff; /* stronger hover color */
+    transform: scale(1.1); /* more noticeable hover */
+    box-shadow: 0 12px 25px rgba(0, 115, 170, 0.6); /* more prominent hover shadow */
 }
 
 .hello-cloud.toggled {
-    background: #ffeb3b;
-    color: #333;
+    background: #ffc107; /* brighter yellow */
+    color: #222; /* high contrast text */
+    border-color: #ff9800; /* matching border */
+    box-shadow: 0 12px 25px rgba(255, 193, 7, 0.6); /* glowing shadow for toggled state */
 }
