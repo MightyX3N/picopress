@@ -27,13 +27,6 @@
             "version": "1.0.0",
             "author": "Test Author",
             "path": "footer-message-plugin"
-        },
-        {
-            "name": "Box Grid Plugin",
-            "description": "Displays a grid of three colored boxes for testing Cloud Plugins Manager",
-            "version": "1.0.0",
-            "author": "Test Author",
-            "path": "box-grid-plugin"
         }
     ]
 }
