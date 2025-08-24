@@ -7,5 +7,5 @@ Author: Test Author
 */
 if (!defined('ABSPATH')) exit;
 add_action('wp_footer', function() {
-    echo '<div id="footer-msg">Footer Test Message ass</div>';
+    echo '<div id="footer-msg">Footer Test Message assasdasd</div>';
 });
