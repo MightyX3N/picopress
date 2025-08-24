@@ -14,7 +14,7 @@ if (!defined('ABSPATH')) {
 // Register shortcode
 add_shortcode('hello_cloud', function($atts) {
     $atts = shortcode_atts(['name' => 'World'], $atts);
-    return '<div class="hello-cloud">' . esc_html__('Hello, ' . $atts['name'] . '!', 'hello-cloud') . '</div>';
+    return '<div class="hello-cloud" data-name="' . esc_attr($atts['name']) . '">' . esc_html__('Hello, ' . $atts['name'] . '!', 'hello-cloud') . '</div>';
 });
 
 // Add translation support
