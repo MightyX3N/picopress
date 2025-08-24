@@ -13,6 +13,27 @@
             "version": "1.0.0",
             "author": "Test Author",
             "path": "test-banner-plugin"
+        },
+        {
+            "name": "Floating Button Plugin",
+            "description": "Shows a floating button at the bottom-right corner for testing Cloud Plugins Manager",
+            "version": "1.0.0",
+            "author": "Test Author",
+            "path": "floating-button-plugin"
+        },
+        {
+            "name": "Footer Message Plugin",
+            "description": "Displays a footer message for testing Cloud Plugins Manager",
+            "version": "1.0.0",
+            "author": "Test Author",
+            "path": "footer-message-plugin"
+        },
+        {
+            "name": "Box Grid Plugin",
+            "description": "Displays a grid of three colored boxes for testing Cloud Plugins Manager",
+            "version": "1.0.0",
+            "author": "Test Author",
+            "path": "box-grid-plugin"
         }
     ]
 }
