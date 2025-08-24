@@ -1,9 +1,0 @@
-{
-  "name": "Pages",
-  "description": "Pages Addon for PicoPress",
-  "version": "1.0",
-  "head": [],
-  "body_before": [],
-  "body_after": [],
-  "footer": []
-}
