@@ -6,6 +6,13 @@
             "version": "1.0.0",
             "author": "xAI",
             "path": "hello-cloud-plugin"
+        },
+        {
+            "name": "Hello Cloud Plugin 2",
+            "description": "A simple cloud plugin that adds a [hello_cloud] shortcode to display a styled greeting.",
+            "version": "1.0.0",
+            "author": "xAI",
+            "path": "hello-cloud-plugin"
         }
     ]
 }
