@@ -1,0 +1,11 @@
+{
+    "plugins": [
+        {
+            "name": "Hello Cloud Plugin",
+            "description": "A simple cloud plugin that adds a [hello_cloud] shortcode to display a styled greeting.",
+            "version": "1.0.0",
+            "author": "xAI",
+            "path": "hello-cloud-plugin"
+        }
+    ]
+}
